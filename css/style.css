@@ -81,7 +81,10 @@ h1 {
   float: right;
   margin-top: 50px;
 }
-
+.button-link {
+  text-decoration: none;
+  color: #263238;
+}
 .button1 {
   width: 200px;
   height: 50px;
@@ -90,7 +93,7 @@ h1 {
   border-radius: 20px;
   border: 0;
   background-color: #ffff00;
-  color: #263238;
+
   -webkit-box-shadow: 17px 19px 38px -18px rgba(0, 0, 0, 0.38);
   -moz-box-shadow: 17px 19px 38px -18px rgba(0, 0, 0, 0.38);
   box-shadow: 17px 19px 38px -18px rgba(0, 0, 0, 0.38);
@@ -109,10 +112,11 @@ p {
 .key-concepts-main {
   background-color: #f6e8f9;
   padding-top: 70px;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
   display: block;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
+
 .growth-fixed {
   margin-left: auto;
   margin-right: auto;
@@ -203,14 +207,20 @@ p {
   font-size: 20px;
   margin-top: 15px;
 }
+
 .section-conclusion {
   background: radial-gradient(ellipse, #ffe6f1, #ecb5f5);
   margin-top: 10px;
   padding-top: 10px;
   text-align: center;
+  margin-bottom: 20px;
 }
+
 .setting {
   color: #9b5da6;
+  margin-top: 30px;
+  /*.setting {
+  color: #9b5da6;*/
 }
 .conclusion {
   font-size: 18px;
@@ -265,9 +275,11 @@ h3 {
   border: 3px solid #3f0e40;
   box-shadow: 0 0 7px #666;
 }
+
 .motive {
   color: #d91d65;
   margin-bottom: 10px;
+  margin-top: 20px;
 }
 .quotes {
   display: block;
@@ -292,7 +304,7 @@ h3 {
 }
 .style-center {
   margin: 0 auto;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 /*team*/
@@ -320,8 +332,12 @@ h3 {
 
 .team {
   padding-bottom: 60px;
-  padding-top: 60px;
+  padding-top: 40px;
 }
+/*.team {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}*/
 
 /*footer*/
 .footer {
@@ -344,7 +360,8 @@ h3 {
 
 .logo-footer-goit {
   float: right;
-  height: 40px;
-  width: 150px;
-  padding-top: 40px;
+  height: 45px;
+  width: 120px;
+  padding-top: 15px;
+  margin-top: 27px;
 }
